@@ -4,3 +4,13 @@
 // `nodeIntegration` is turned off. Use `preload.js` to
 // selectively enable features needed in the rendering
 // process.
+
+import React from 'react'
+
+const renderer = () => {
+  return (
+    <div>renderer</div>
+  )
+}
+
+export default renderer
